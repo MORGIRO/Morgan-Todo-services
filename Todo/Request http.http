@@ -1,0 +1,30 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+###
+POST /api/todo
+host: localhost:8080
+Content-Type: application/json
+
+{
+  "title": "Fix my home router",
+  "description": "user message"
+}
+
+### Post "Privet!"
+
+GET /api/todo/e647497d-c7e6-468e-be2c-682f4f8f795f
+host: localhost:8080
+content-Type: application/json
+
+###
+
+
+GET /api/todo
+host: localhost:8080
+content-Type: application/json
+
+
+###
+
